@@ -5,13 +5,9 @@ const { re, src, tokens } = require('semver')
 const getVersion = (str = '') => str.match(re[tokens.FULLPLAIN])?.[0]
 
 // workspace releases include a context between the word release and the version
-const isRootRelease = (str = '') => str.match(new RegExp(`: release ${src[tokens.FULLPLAIN]}$`))
+const isRootRelease = (str = '') => str.match(new RegExp(`v${src[tokens.FULLPLAIN]}$`))
 
-const denyRepoNames = [
-  'npm/node',
-  'npm/npm-cli-release-please',
-  'npm/release-please',
-]
+const denyRepoNames = []
 
 const denyCheckRuns = /^nodejs@\w+\sintegration\s/
 
@@ -19,7 +15,7 @@ const {
   // add a delay between requests in CI since the built in GH tokens
   // on actions seem to be more susceptible to secondary rate limits
   delay = process.env.CI ? 1000 : 0,
-  repoQuery = 'org:npm topic:npm-cli fork:true is:public',
+  repoQuery = 'org:webdriverio fork:false is:public',
   issueAndPrQuery = 'is:open',
   noWrite = false,
 } = parseArgs({
@@ -66,7 +62,7 @@ module.exports = {
     },
     triage: {
       filter: (issue) => issue.labels.some(l => l.name === 'Needs Triage'),
-      url: 'label:"Needs Triage"',
+      url: 'label:"Needs Triaging ⏳"',
     },
   },
   prFilter: {
