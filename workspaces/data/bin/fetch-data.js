@@ -28,7 +28,7 @@ const getProjects = (query) => {
   // a specific repo. This is because this reads from our `maintained.json` list
   // but sometimes during debugging we want to isolate a specific repo to test its
   // data, eg `npm run -w data fetch:data -- --repoQuery='id:npm_cli'`
-  const filter = query.split(' ').map(q => {
+  const filter = query.join(' ').split(' ').map(q => {
     const [key, value] = q.split(':')
     if (projectKeys.has(key)) {
       return (p) => p[key] === value

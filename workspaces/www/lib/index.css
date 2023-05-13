@@ -32,7 +32,7 @@ body:before {
   width: 100%;
   height: 10px;
   color: rgb(65, 56, 68);
-  background-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff);
+  background-image: linear-gradient(139deg, #fb8817, #EA5906, #c12127, #1C1E21);
 }
 
 h1, h2, h3, h4, h5 {

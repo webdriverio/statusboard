@@ -5,9 +5,23 @@
     "owner": "webdriverio"
   },
   {
+    "id": "webdriverio_webdriverio_packages_wdio-allure-reporter",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/wdio-allure-reporter",
+    "pkg": "@wdio/allure-reporter"
+  },
+  {
     "id": "webdriverio_appium-boilerplate",
     "name": "appium-boilerplate",
     "owner": "webdriverio"
+  },
+  {
+    "id": "webdriverio_webdriverio_packages_wdio-appium-service",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/wdio-appium-service",
+    "pkg": "@wdio/appium-service"
   },
   {
     "id": "webdriverio_awesome-webdriverio",
@@ -15,10 +29,31 @@
     "owner": "webdriverio"
   },
   {
+    "id": "webdriverio_webdriverio_packages_wdio-browser-runner",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/wdio-browser-runner",
+    "pkg": "@wdio/browser-runner"
+  },
+  {
+    "id": "webdriverio_webdriverio_packages_wdio-browserstack-service",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/wdio-browserstack-service",
+    "pkg": "@wdio/browserstack-service"
+  },
+  {
     "id": "webdriverio_chrome-recorder",
     "name": "chrome-recorder",
     "owner": "webdriverio",
     "pkg": "@wdio/chrome-recorder"
+  },
+  {
+    "id": "webdriverio_webdriverio_packages_wdio-cli",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/wdio-cli",
+    "pkg": "@wdio/cli"
   },
   {
     "id": "webdriverio_codemod",
@@ -32,16 +67,78 @@
     "owner": "webdriverio"
   },
   {
+    "id": "webdriverio_webdriverio_packages_wdio-concise-reporter",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/wdio-concise-reporter",
+    "pkg": "@wdio/concise-reporter"
+  },
+  {
+    "id": "webdriverio_webdriverio_packages_wdio-config",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/wdio-config",
+    "pkg": "@wdio/config"
+  },
+  {
     "id": "webdriverio_create-wdio",
     "name": "create-wdio",
     "owner": "webdriverio",
     "pkg": "create-wdio"
   },
   {
+    "id": "webdriverio_webdriverio_packages_wdio-crossbrowsertesting-service",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/wdio-crossbrowsertesting-service",
+    "pkg": "@wdio/crossbrowsertesting-service"
+  },
+  {
     "id": "webdriverio_cucumber-boilerplate",
     "name": "cucumber-boilerplate",
     "owner": "webdriverio",
     "pkg": "cucumber-boilerplate"
+  },
+  {
+    "id": "webdriverio_webdriverio_packages_wdio-cucumber-framework",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/wdio-cucumber-framework",
+    "pkg": "@wdio/cucumber-framework"
+  },
+  {
+    "id": "webdriverio_webdriverio_packages_devtools",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/devtools",
+    "pkg": "devtools"
+  },
+  {
+    "id": "webdriverio_webdriverio_packages_wdio-devtools-service",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/wdio-devtools-service",
+    "pkg": "@wdio/devtools-service"
+  },
+  {
+    "id": "webdriverio_webdriverio_packages_wdio-dot-reporter",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/wdio-dot-reporter",
+    "pkg": "@wdio/dot-reporter"
+  },
+  {
+    "id": "webdriverio-community_node-edgedriver",
+    "name": "node-edgedriver",
+    "owner": "webdriverio-community",
+    "pkg": "edgedriver"
+  },
+  {
+    "id": "webdriverio_webdriverio_packages_eslint-plugin-wdio",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/eslint-plugin-wdio",
+    "pkg": "eslint-plugin-wdio"
   },
   {
     "id": "webdriverio_example-recipes",
@@ -55,6 +152,20 @@
     "pkg": "expect-webdriverio"
   },
   {
+    "id": "webdriverio_webdriverio_packages_wdio-firefox-profile-service",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/wdio-firefox-profile-service",
+    "pkg": "@wdio/firefox-profile-service"
+  },
+  {
+    "id": "webdriverio_webdriverio_packages_wdio-globals",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/wdio-globals",
+    "pkg": "@wdio/globals"
+  },
+  {
     "id": "webdriverio_guinea-pig",
     "name": "guinea-pig",
     "owner": "webdriverio"
@@ -65,9 +176,51 @@
     "owner": "webdriverio"
   },
   {
+    "id": "webdriverio_webdriverio_packages_wdio-jasmine-framework",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/wdio-jasmine-framework",
+    "pkg": "@wdio/jasmine-framework"
+  },
+  {
+    "id": "webdriverio_webdriverio_packages_wdio-junit-reporter",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/wdio-junit-reporter",
+    "pkg": "@wdio/junit-reporter"
+  },
+  {
+    "id": "webdriverio_webdriverio_packages_wdio-local-runner",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/wdio-local-runner",
+    "pkg": "@wdio/local-runner"
+  },
+  {
+    "id": "webdriverio_webdriverio_packages_wdio-logger",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/wdio-logger",
+    "pkg": "@wdio/logger"
+  },
+  {
+    "id": "webdriverio_webdriverio_packages_wdio-mocha-framework",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/wdio-mocha-framework",
+    "pkg": "@wdio/mocha-framework"
+  },
+  {
     "id": "webdriverio_native-demo-app",
     "name": "native-demo-app",
     "owner": "webdriverio"
+  },
+  {
+    "id": "webdriverio_webdriverio_packages_wdio-protocols",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/wdio-protocols",
+    "pkg": "@wdio/protocols"
   },
   {
     "id": "webdriverio_query-selector-shadow-dom",
@@ -79,6 +232,40 @@
     "id": "webdriverio_recorder-extension",
     "name": "recorder-extension",
     "owner": "webdriverio"
+  },
+  {
+    "id": "webdriverio_webdriverio_packages_wdio-repl",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/wdio-repl",
+    "pkg": "@wdio/repl"
+  },
+  {
+    "id": "webdriverio_webdriverio_packages_wdio-reporter",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/wdio-reporter",
+    "pkg": "@wdio/reporter"
+  },
+  {
+    "id": "webdriverio_webdriverio_packages_wdio-runner",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/wdio-runner",
+    "pkg": "@wdio/runner"
+  },
+  {
+    "id": "webdriverio-community_node-safaridriver",
+    "name": "node-safaridriver",
+    "owner": "webdriverio-community",
+    "pkg": "safaridriver"
+  },
+  {
+    "id": "webdriverio_webdriverio_packages_wdio-sauce-service",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/wdio-sauce-service",
+    "pkg": "@wdio/sauce-service"
   },
   {
     "id": "webdriverio_webdriverio-schematics",
@@ -93,15 +280,203 @@
     "pkg": "selenium-standalone"
   },
   {
+    "id": "webdriverio_webdriverio_packages_wdio-selenium-standalone-service",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/wdio-selenium-standalone-service",
+    "pkg": "@wdio/selenium-standalone-service"
+  },
+  {
+    "id": "webdriverio_webdriverio_packages_wdio-shared-store-service",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/wdio-shared-store-service",
+    "pkg": "@wdio/shared-store-service"
+  },
+  {
+    "id": "webdriverio_webdriverio_packages_wdio-smoke-test-cjs-service",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/wdio-smoke-test-cjs-service",
+    "pkg": "@wdio/smoke-test-cjs-service"
+  },
+  {
+    "id": "webdriverio_webdriverio_packages_wdio-smoke-test-reporter",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/wdio-smoke-test-reporter",
+    "pkg": "@wdio/smoke-test-reporter"
+  },
+  {
+    "id": "webdriverio_webdriverio_packages_wdio-smoke-test-service",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/wdio-smoke-test-service",
+    "pkg": "@wdio/smoke-test-service"
+  },
+  {
+    "id": "webdriverio_webdriverio_packages_wdio-spec-reporter",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/wdio-spec-reporter",
+    "pkg": "@wdio/spec-reporter"
+  },
+  {
+    "id": "webdriverio_webdriverio_packages_wdio-static-server-service",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/wdio-static-server-service",
+    "pkg": "@wdio/static-server-service"
+  },
+  {
+    "id": "webdriverio_webdriverio_packages_wdio-sumologic-reporter",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/wdio-sumologic-reporter",
+    "pkg": "@wdio/sumologic-reporter"
+  },
+  {
+    "id": "webdriverio_webdriverio_packages_wdio-testingbot-service",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/wdio-testingbot-service",
+    "pkg": "@wdio/testingbot-service"
+  },
+  {
+    "id": "webdriverio-community_wdio-testrail-reporter",
+    "name": "wdio-testrail-reporter",
+    "owner": "webdriverio-community",
+    "pkg": "@wdio/testrail-reporter"
+  },
+  {
+    "id": "webdriverio_webdriverio_packages_wdio-types",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/wdio-types",
+    "pkg": "@wdio/types"
+  },
+  {
+    "id": "webdriverio_webdriverio_packages_wdio-utils",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/wdio-utils",
+    "pkg": "@wdio/utils"
+  },
+  {
+    "id": "webdriverio-community_wdio-chromedriver-service",
+    "name": "wdio-chromedriver-service",
+    "owner": "webdriverio-community",
+    "pkg": "wdio-chromedriver-service"
+  },
+  {
+    "id": "webdriverio-community_wdio-cucumberjs-json-reporter",
+    "name": "wdio-cucumberjs-json-reporter",
+    "owner": "webdriverio-community",
+    "pkg": "wdio-cucumberjs-json-reporter"
+  },
+  {
+    "id": "webdriverio-community_wdio-edgedriver-service",
+    "name": "wdio-edgedriver-service",
+    "owner": "webdriverio-community",
+    "pkg": "wdio-edgedriver-service"
+  },
+  {
+    "id": "webdriverio-community_wdio-electron-service",
+    "name": "wdio-electron-service",
+    "owner": "webdriverio-community",
+    "pkg": "wdio-electron-service"
+  },
+  {
+    "id": "webdriverio-community_wdio-geckodriver-service",
+    "name": "wdio-geckodriver-service",
+    "owner": "webdriverio-community",
+    "pkg": "wdio-geckodriver-service"
+  },
+  {
+    "id": "webdriverio-community_wdio-gmail-service",
+    "name": "wdio-gmail-service",
+    "owner": "webdriverio-community",
+    "pkg": "wdio-gmail-service"
+  },
+  {
+    "id": "webdriverio-community_wdio-intercept-service",
+    "name": "wdio-intercept-service",
+    "owner": "webdriverio-community",
+    "pkg": "wdio-intercept-service"
+  },
+  {
+    "id": "webdriverio-community_wdio-rerun-service",
+    "name": "wdio-rerun-service",
+    "owner": "webdriverio-community",
+    "pkg": "wdio-rerun-service"
+  },
+  {
+    "id": "webdriverio-community_wdio-safaridriver-service",
+    "name": "wdio-safaridriver-service",
+    "owner": "webdriverio-community",
+    "pkg": "wdio-safaridriver-service"
+  },
+  {
+    "id": "webdriverio-community_wdio-teamcity-reporter",
+    "name": "wdio-teamcity-reporter",
+    "owner": "webdriverio-community",
+    "pkg": "wdio-teamcity-reporter"
+  },
+  {
+    "id": "webdriverio-community_wdio-video-reporter",
+    "name": "wdio-video-reporter",
+    "owner": "webdriverio-community",
+    "pkg": "wdio-video-reporter"
+  },
+  {
+    "id": "webdriverio-community_wdio-vite-service",
+    "name": "wdio-vite-service",
+    "owner": "webdriverio-community",
+    "pkg": "wdio-vite-service"
+  },
+  {
+    "id": "webdriverio-community_wdio-vscode-service",
+    "name": "wdio-vscode-service",
+    "owner": "webdriverio-community",
+    "pkg": "wdio-vscode-service"
+  },
+  {
     "id": "webdriverio_wdio-wait-for",
     "name": "wdio-wait-for",
     "owner": "webdriverio",
     "pkg": "wdio-wait-for"
   },
   {
+    "id": "webdriverio_webdriverio_packages_webdriver",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/webdriver",
+    "pkg": "webdriver"
+  },
+  {
+    "id": "webdriverio_webdriverio_packages_wdio-webdriver-mock-service",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/wdio-webdriver-mock-service",
+    "pkg": "@wdio/webdriver-mock-service"
+  },
+  {
     "id": "webdriverio_webdriverio",
     "name": "webdriverio",
     "owner": "webdriverio"
+  },
+  {
+    "id": "webdriverio_webdriverio_packages_webdriverio",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/webdriverio",
+    "pkg": "webdriverio"
+  },
+  {
+    "id": "webdriverio-community_webdriverrtc",
+    "name": "webdriverrtc",
+    "owner": "webdriverio-community",
+    "pkg": "webdriverrtc"
   },
   {
     "id": "webdriverio_workshop",

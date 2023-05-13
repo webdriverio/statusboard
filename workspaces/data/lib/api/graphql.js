@@ -7,6 +7,39 @@ const packageApi = require('./package.js')
 
 const graphqlKey = (k) => `_${k.replace(/[^_0-9A-Za-z]/g, '')}`
 
+const FETCH_REPOSITORIES_GRAPHQL = `query ($searchQuery: String!, $first: Int!, $after: String) {
+  search(query: $searchQuery, type: REPOSITORY, first: $first, after: $after) {
+    pageInfo {
+      endCursor
+      hasNextPage
+    }
+    nodes {
+      ... on Repository {
+        name
+        description
+        owner { login }
+        url
+        isArchived
+        isFork
+        repositoryTopics(first: 100) {
+          nodes {
+            ... on RepositoryTopic {
+              topic {
+                name
+              }
+            }
+          }
+        }
+        pkg: object(expression: "HEAD:package.json") {
+          ... on Blob {
+            text
+          }
+        }
+      }
+    }
+  }
+}`
+
 module.exports = ({ auth }) => {
   const GRAPHQL = Graphql.defaults({
     headers: {
@@ -125,6 +158,10 @@ module.exports = ({ auth }) => {
   const getWorkspaces = async (owner, name, workspaces) => {
     log.verbose(`graphql:workspaces`, `${owner}/${name}`)
 
+    if (owner === name) {
+      workspaces = ['packages/*']
+    }
+
     if (!Array.isArray(workspaces)) {
       return []
     }
@@ -168,43 +205,15 @@ module.exports = ({ auth }) => {
     * })[]>}
     */
   const searchRepos = async (searchQuery) => {
-    log.verbose('graphql:search', searchQuery)
-
-    const nodes = await paginateQuery(
-      `query ($searchQuery: String!, $first: Int!, $after: String) {
-        search(query: $searchQuery, type: REPOSITORY, first: $first, after: $after) {
-          pageInfo {
-            endCursor
-            hasNextPage
-          }
-          nodes {
-            ... on Repository {
-              name
-              description
-              owner { login }
-              url
-              isArchived
-              isFork
-              repositoryTopics(first: 100) {
-                nodes {
-                  ... on RepositoryTopic {
-                    topic {
-                      name
-                    }
-                  }
-                }
-              }
-              pkg: object(expression: "HEAD:package.json") {
-                ... on Blob {
-                  text
-                }
-              }
-            }
-          }
-        }
-      }`,
-      { searchQuery, query: 'search' }
-    )
+    const nodes = []
+    for (const sq of searchQuery) {
+      log.verbose('graphql:search', sq)
+      const queryNodes = await paginateQuery(
+        FETCH_REPOSITORIES_GRAPHQL,
+        { searchQuery: sq, query: 'search' }
+      )
+      nodes.push(...queryNodes)
+    }
 
     return nodes.map(({ pkg, ...repo }) => ({
       repo: {
@@ -244,7 +253,7 @@ module.exports = ({ auth }) => {
     * })[]>}
     */
   const searchReposWithManifests = async (searchQuery) => {
-    log.verbose('graphql:searchWithManifests', searchQuery)
+    log.verbose('graphql:searchWithManifests', searchQuery.join(', '))
 
     const allRepos = await searchReposWithWorkspaces(searchQuery)
 

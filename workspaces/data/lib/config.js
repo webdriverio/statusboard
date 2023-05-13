@@ -7,7 +7,7 @@ const getVersion = (str = '') => str.match(re[tokens.FULLPLAIN])?.[0]
 // workspace releases include a context between the word release and the version
 const isRootRelease = (str = '') => str.match(new RegExp(`v${src[tokens.FULLPLAIN]}$`))
 
-const denyRepoNames = []
+const denyRepoNames = ['webdriverrtc']
 
 const denyCheckRuns = /^nodejs@\w+\sintegration\s/
 
@@ -15,7 +15,10 @@ const {
   // add a delay between requests in CI since the built in GH tokens
   // on actions seem to be more susceptible to secondary rate limits
   delay = process.env.CI ? 1000 : 0,
-  repoQuery = 'org:webdriverio fork:false is:public',
+  repoQuery = [
+    'org:webdriverio fork:false is:public',
+    'org:webdriverio-community fork:false is:public'
+  ],
   issueAndPrQuery = 'is:open',
   noWrite = false,
 } = parseArgs({

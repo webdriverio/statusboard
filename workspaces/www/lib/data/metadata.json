@@ -1,11 +1,11 @@
 {
   "fetch-maintained": {
-    "update": -2,
-    "success": "2023-05-12T19:53:24.275Z",
+    "update": 39,
+    "success": "2023-05-13T02:58:16.365Z",
     "error": null
   },
   "fetch-data": {
-    "success": "2023-05-12T19:53:36.049Z",
+    "success": "2023-05-13T02:58:25.756Z",
     "error": null
   }
 }
