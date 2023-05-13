@@ -50,7 +50,7 @@ const makeIssueColumns = ({ data: key, title, danger = 20, warning = 1 }) => ({
 })
 
 const getColumns = (rows) => {
-  const requiredNode = '^16.13.0 || >=18.0.0' // $$.nodeVersion(rows)
+  const requiredNode = '^16.13 || >=18' // $$.nodeVersion(rows)
 
   const rowWithIssues = rows.find((project) => project.issues && project.prs) || {}
 
