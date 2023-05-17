@@ -159,6 +159,12 @@
     "pkg": "@wdio/firefox-profile-service"
   },
   {
+    "id": "webdriverio-community_node-geckodriver",
+    "name": "node-geckodriver",
+    "owner": "webdriverio-community",
+    "pkg": "geckodriver"
+  },
+  {
     "id": "webdriverio_webdriverio_packages_wdio-globals",
     "name": "webdriverio",
     "owner": "webdriverio",
