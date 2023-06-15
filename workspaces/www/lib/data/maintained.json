@@ -381,6 +381,12 @@
     "pkg": "wdio-cucumberjs-json-reporter"
   },
   {
+    "id": "webdriverio-community_wdio-docker-service",
+    "name": "wdio-docker-service",
+    "owner": "webdriverio-community",
+    "pkg": "wdio-docker-service"
+  },
+  {
     "id": "webdriverio-community_wdio-edgedriver-service",
     "name": "wdio-edgedriver-service",
     "owner": "webdriverio-community",
