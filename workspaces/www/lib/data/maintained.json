@@ -417,6 +417,12 @@
     "pkg": "wdio-intercept-service"
   },
   {
+    "id": "webdriverio-community_wdio-nuxt-service",
+    "name": "wdio-nuxt-service",
+    "owner": "webdriverio-community",
+    "pkg": "wdio-nuxt-service"
+  },
+  {
     "id": "webdriverio-community_wdio-rerun-service",
     "name": "wdio-rerun-service",
     "owner": "webdriverio-community",
