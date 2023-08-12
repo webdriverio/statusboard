@@ -286,13 +286,6 @@
     "pkg": "selenium-standalone"
   },
   {
-    "id": "webdriverio_webdriverio_packages_wdio-selenium-standalone-service",
-    "name": "webdriverio",
-    "owner": "webdriverio",
-    "path": "packages/wdio-selenium-standalone-service",
-    "pkg": "@wdio/selenium-standalone-service"
-  },
-  {
     "id": "webdriverio_webdriverio_packages_wdio-shared-store-service",
     "name": "webdriverio",
     "owner": "webdriverio",
