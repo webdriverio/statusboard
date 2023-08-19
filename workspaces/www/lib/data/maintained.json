@@ -404,6 +404,12 @@
     "pkg": "wdio-gmail-service"
   },
   {
+    "id": "webdriverio-community_wdio-html-reporter",
+    "name": "wdio-html-reporter",
+    "owner": "webdriverio-community",
+    "pkg": "wdio-html-nice-reporter"
+  },
+  {
     "id": "webdriverio-community_wdio-intercept-service",
     "name": "wdio-intercept-service",
     "owner": "webdriverio-community",
