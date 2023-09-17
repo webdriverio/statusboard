@@ -342,6 +342,12 @@
     "pkg": "@wdio/testingbot-service"
   },
   {
+    "id": "webdriverio-community_wdio-testrail-reporter",
+    "name": "wdio-testrail-reporter",
+    "owner": "webdriverio-community",
+    "pkg": "@wdio/testrail-reporter"
+  },
+  {
     "id": "webdriverio_webdriverio_packages_wdio-types",
     "name": "webdriverio",
     "owner": "webdriverio",
@@ -354,6 +360,12 @@
     "owner": "webdriverio",
     "path": "packages/wdio-utils",
     "pkg": "@wdio/utils"
+  },
+  {
+    "id": "webdriverio-community_wdio-chromedriver-service",
+    "name": "wdio-chromedriver-service",
+    "owner": "webdriverio-community",
+    "pkg": "wdio-chromedriver-service"
   },
   {
     "id": "webdriverio-community_wdio-cucumberjs-json-reporter",
