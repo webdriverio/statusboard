@@ -195,6 +195,13 @@
     "pkg": "@wdio/jasmine-framework"
   },
   {
+    "id": "webdriverio_webdriverio_packages_wdio-json-reporter",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/wdio-json-reporter",
+    "pkg": "@wdio/json-reporter"
+  },
+  {
     "id": "webdriverio_webdriverio_packages_wdio-junit-reporter",
     "name": "webdriverio",
     "owner": "webdriverio",
