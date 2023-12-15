@@ -183,6 +183,11 @@
     "owner": "webdriverio"
   },
   {
+    "id": "webdriverio_ionic-demo-app",
+    "name": "ionic-demo-app",
+    "owner": "webdriverio"
+  },
+  {
     "id": "webdriverio_jasmine-boilerplate",
     "name": "jasmine-boilerplate",
     "owner": "webdriverio"
