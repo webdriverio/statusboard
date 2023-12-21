@@ -380,6 +380,11 @@
     "pkg": "@wdio/utils"
   },
   {
+    "id": "webdriverio_visual-testing",
+    "name": "visual-testing",
+    "owner": "webdriverio"
+  },
+  {
     "id": "webdriverio-community_wdio-chromedriver-service",
     "name": "wdio-chromedriver-service",
     "owner": "webdriverio-community",
