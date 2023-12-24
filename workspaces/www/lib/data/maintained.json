@@ -56,6 +56,12 @@
     "pkg": "@wdio/cli"
   },
   {
+    "id": "webdriverio_codemod",
+    "name": "codemod",
+    "owner": "webdriverio",
+    "pkg": "@wdio/codemod"
+  },
+  {
     "id": "webdriverio_component-testing-examples",
     "name": "component-testing-examples",
     "owner": "webdriverio"
