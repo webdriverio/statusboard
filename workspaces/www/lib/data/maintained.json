@@ -43,6 +43,12 @@
     "pkg": "@wdio/browserstack-service"
   },
   {
+    "id": "webdriverio_bx",
+    "name": "bx",
+    "owner": "webdriverio",
+    "pkg": "bx"
+  },
+  {
     "id": "webdriverio_chrome-recorder",
     "name": "chrome-recorder",
     "owner": "webdriverio",
