@@ -113,13 +113,6 @@
     "pkg": "@wdio/cucumber-framework"
   },
   {
-    "id": "webdriverio_webdriverio_packages_devtools",
-    "name": "webdriverio",
-    "owner": "webdriverio",
-    "path": "packages/devtools",
-    "pkg": "devtools"
-  },
-  {
     "id": "webdriverio_webdriverio_packages_wdio-devtools-service",
     "name": "webdriverio",
     "owner": "webdriverio",
