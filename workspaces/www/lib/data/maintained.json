@@ -93,13 +93,6 @@
     "pkg": "create-wdio"
   },
   {
-    "id": "webdriverio_webdriverio_packages_wdio-crossbrowsertesting-service",
-    "name": "webdriverio",
-    "owner": "webdriverio",
-    "path": "packages/wdio-crossbrowsertesting-service",
-    "pkg": "@wdio/crossbrowsertesting-service"
-  },
-  {
     "id": "webdriverio_cucumber-boilerplate",
     "name": "cucumber-boilerplate",
     "owner": "webdriverio",
