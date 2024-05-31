@@ -128,8 +128,7 @@
   {
     "id": "webdriverio_electron-boilerplate",
     "name": "electron-boilerplate",
-    "owner": "webdriverio",
-    "pkg": "electron-boilerplate"
+    "owner": "webdriverio"
   },
   {
     "id": "webdriverio_webdriverio_packages_eslint-plugin-wdio",
