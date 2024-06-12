@@ -1,8 +1,8 @@
 ## 📊 statusboard
 
-[**npm.github.io/statusboard**](https://npm.github.io/statusboard/)
+[**webdriverio.github.io/statusboard**](https://webdriverio.github.io/statusboard/)
 
-A single view to help monitor the status/health of the [`@npm/cli`](https://github.com/orgs/npm/teams/cli) teams's Open Source Projects.
+A single view to help monitor the status/health of the [`webdriverio`](https://github.com/webdriverio/) and [`webdriverio-community`](https://github.com/webdriverio-community/) teams's Open Source Projects.
 
 ### Data
 

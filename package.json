@@ -5,15 +5,15 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/npm/statusboard.git"
+    "url": "https://github.com/webdriverio/statusboard.git"
   },
   "keywords": [],
   "author": "GitHub Inc.",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/npm/statusboard/issues"
+    "url": "https://github.com/webdriverio/statusboard/issues"
   },
-  "homepage": "https://github.com/npm/statusboard#readme",
+  "homepage": "https://github.com/webdriverio/statusboard#readme",
   "workspaces": [
     "workspaces/*"
   ],
