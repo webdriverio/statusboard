@@ -106,13 +106,6 @@
     "pkg": "@wdio/cucumber-framework"
   },
   {
-    "id": "webdriverio_webdriverio_packages_wdio-devtools-service",
-    "name": "webdriverio",
-    "owner": "webdriverio",
-    "path": "packages/wdio-devtools-service",
-    "pkg": "@wdio/devtools-service"
-  },
-  {
     "id": "webdriverio_webdriverio_packages_wdio-dot-reporter",
     "name": "webdriverio",
     "owner": "webdriverio",
@@ -201,6 +194,12 @@
     "owner": "webdriverio",
     "path": "packages/wdio-json-reporter",
     "pkg": "@wdio/json-reporter"
+  },
+  {
+    "id": "webdriverio-community_wdio-jsonwp-service",
+    "name": "wdio-jsonwp-service",
+    "owner": "webdriverio-community",
+    "pkg": "@wdio/jsonwp-service"
   },
   {
     "id": "webdriverio_webdriverio_packages_wdio-junit-reporter",
@@ -500,6 +499,12 @@
     "id": "webdriverio_webdriverio",
     "name": "webdriverio",
     "owner": "webdriverio"
+  },
+  {
+    "id": "webdriverio_webdriverio_packages_wdio-lighthouse-service",
+    "name": "webdriverio",
+    "owner": "webdriverio",
+    "path": "packages/wdio-lighthouse-service"
   },
   {
     "id": "webdriverio_webdriverio_packages_webdriverio",
