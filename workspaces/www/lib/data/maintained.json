@@ -441,6 +441,12 @@
     "pkg": "wdio-intercept-service"
   },
   {
+    "id": "webdriverio-community_wdio-next-service",
+    "name": "wdio-next-service",
+    "owner": "webdriverio-community",
+    "pkg": "wdio-next-service"
+  },
+  {
     "id": "webdriverio-community_wdio-nuxt-service",
     "name": "wdio-nuxt-service",
     "owner": "webdriverio-community",
