@@ -441,6 +441,12 @@
     "pkg": "wdio-intercept-service"
   },
   {
+    "id": "webdriverio-community_wdio-mochawesome-reporter",
+    "name": "wdio-mochawesome-reporter",
+    "owner": "webdriverio-community",
+    "pkg": "wdio-mochawesome-reporter"
+  },
+  {
     "id": "webdriverio-community_wdio-next-service",
     "name": "wdio-next-service",
     "owner": "webdriverio-community",
