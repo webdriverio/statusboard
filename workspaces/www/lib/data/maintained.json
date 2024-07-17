@@ -413,8 +413,7 @@
   {
     "id": "webdriverio-community_wdio-electron-service",
     "name": "wdio-electron-service",
-    "owner": "webdriverio-community",
-    "pkg": "wdio-electron-service"
+    "owner": "webdriverio-community"
   },
   {
     "id": "webdriverio-community_wdio-geckodriver-service",
