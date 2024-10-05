@@ -470,6 +470,11 @@
     "pkg": "wdio-safaridriver-service"
   },
   {
+    "id": "webdriverio-community_wdio-tauri-service",
+    "name": "wdio-tauri-service",
+    "owner": "webdriverio-community"
+  },
+  {
     "id": "webdriverio-community_wdio-teamcity-reporter",
     "name": "wdio-teamcity-reporter",
     "owner": "webdriverio-community",
