@@ -124,6 +124,12 @@
     "owner": "webdriverio"
   },
   {
+    "id": "webdriverio_eslint",
+    "name": "eslint",
+    "owner": "webdriverio",
+    "pkg": "@wdio/eslint"
+  },
+  {
     "id": "webdriverio_webdriverio_packages_eslint-plugin-wdio",
     "name": "webdriverio",
     "owner": "webdriverio",
