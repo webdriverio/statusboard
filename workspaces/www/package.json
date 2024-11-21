@@ -17,16 +17,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/npm/statusboard.git",
+    "url": "https://github.com/webdriverio/statusboard.git",
     "directory": "workspaces/www"
   },
   "keywords": [],
   "author": "GitHub Inc.",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/npm/statusboard/issues"
+    "url": "https://github.com/webdriverio/statusboard/issues"
   },
-  "homepage": "https://github.com/npm/statusboard#readme",
+  "homepage": "https://github.com/webdriverio/statusboard#readme",
   "devDependencies": {
     "@npmcli/eslint-config": "^4.0.0",
     "@npmcli/template-oss": "4.12.0",
